@@ -4,8 +4,9 @@
 
 int main()
 {	
-
-	float a,b,g,e,f,s,d,p,c,r,q;
+	float a,b,g,e,f,s,d,p,c;
+	char r,q,x;
+	Arxi:		
 	printf("Ypologismos trionimoy\nPatas tin epilogi soy kai meta enter");
 	printf("\nIsagete A: ");
 	scanf("%f",&a);
@@ -93,12 +94,16 @@ int main()
 		}
 	}
 	
-	printf("\nPata Q gia na bgeis  ");
-	scanf("%f",&r);
-	if(r==q);
+	printf("\nPata X gia na sinexiseis\nPata Q gia na bgeis\n");
+	scanf(" %c", &r);
+	if(r=='q')
 	{ printf("Sas Efxaristo Poly Romanos Selentis");
 	sleep(3);
 	return 0;	
+	}
+	else if(r=='x')
+	{ printf("\n");
+	goto Arxi;
 	}
 
 }
